@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="qrc:/scripts/jquery.js"></script>
+		<script src="qrc:/scripts/rangy-core.js"></script>
+		<script src="qrc:/scripts/rangy-cssclassapplier.js"></script>
+		<script src="qrc:/scripts/htmleditor.js"></script>
+		<style>
+			body {
+				font-size: 26pt;
+				font-family: 'Roboto medium';
+			}
+			h1 {
+				font-size: 48pt;
+				font-family: 'Roboto condensed medium';
+			}
+			table {
+				font-family: 'Roboto light';
+			}
+			table th {
+				text-align: left;
+				padding-right: 15px;
+				font-size: 26pt;
+			}
+			div.info {
+				background-color: #303030;
+				padding-left: 25px;
+				color: #a4a4a4;
+				padding: 20px;
+				border: 13px hidden #8ABEB7;
+				border-radius: 14px;
+			}
+			div.alert {
+				font-size: 22pt;
+				color: #a95858;
+			}
+
+			/*
+			http://www.cssarrowplease.com/
+			*/
+			.arrow_box h1 {
+				margin: 0px;
+			}
+			.arrow_box {
+				position: relative;
+				background: #8abeb7;
+				xborder: 4px solid #484848;
+				border: 5px solid #484848;
+				border-radius: 14px;
+				padding: 20px;
+			}
+			.arrow_box:after, .arrow_box:before {
+				left: 100%;
+				top: 50%;
+				border: solid transparent;
+				content: " ";
+				height: 0;
+				width: 0;
+				position: absolute;
+				pointer-events: none;
+			}
+
+			.arrow_box:after {
+				border-color: rgba(138, 190, 183, 0);
+				border-left-color: #8abeb7;
+				border-width: 30px;
+				margin-top: -30px;
+			}
+			.arrow_box:before {
+				border-color: rgba(72, 72, 72, 0);
+				border-left-color: #484848;
+				border-width: 36px;
+				margin-top: -36px;
+			}
+
+		</style>
+	</head>
+
+	<body style="">
+		<div class="arrow_box" style="width: 80%">
+			<h1>The notification area.</h1>
+			In the upper right are the dunst notifications informing you right now,
+			what has been autostarted. However, these notifications will be used
+			by almost all other desktop applications.<br />
+			The programm used here is called <i>dunst</i>.
+		</div>
+	</body>
+</html>

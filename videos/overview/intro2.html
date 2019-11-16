@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="qrc:/scripts/jquery.js"></script>
+		<script src="qrc:/scripts/rangy-core.js"></script>
+		<script src="qrc:/scripts/rangy-cssclassapplier.js"></script>
+		<script src="qrc:/scripts/htmleditor.js"></script>
+		<style>
+			body {
+				background-color: #303030;
+				padding-left: 25px;
+				color: #a4a4a4;
+				font-size: 26pt;
+				font-family: 'Roboto medium';
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body id=body>
+		<h1>What is the DieBenutzerumgebung?</h1>
+		The DieBenutzerumgebung is a collection of configurations and and scripts that give me a calming and consistent desktop experience.
+		To achieve that I have generated a GTK2/3 theme using oomox and the theme/iconset Numix as base (plus dircolors, shell colors and so on)
+		using a colorscheme that is mainly influenced by solarized dark. As font-face I decided to use Roboto and RobotoMono.
+		The matching colors and fonts are configured for all applications/thermes that I use.<br />
+		<br />
+		Also I setup most applications to have the same keyboard shortcuts. For example <kbd>CTRL</kbd>+<kbd>a</kbd> = jump to beginning of line
+		and <kbd>CTRL</kbd>+<kbd>e</kbd> = jump to end of line. Or <kbd>CTRL</kbd>+<kbd>+/-/=</kbd> and to scale fonts like in Firefox.
+		This is implemented for VIM, Firefox, urxvt (the terminal) and some other tools. Maybe you'll say <kbd>CTRL</kbd>+<kbd>a</kbd>
+		is already mapped to select all and can't be remapped. Or maybe you say gVIM wont be able to map <kbd>CTRL</kbd>+<kbd>+/-/=</kbd>
+		because of the ASCII standard. You are right. But I have solved that with the <i>xkeys.zsh</i> script I created.
+		You can read more on that on the projects github page. However, I miss <kbd>CTRL</kbd>+<kbd>a</kbd> sometimes to select all in Firefox.<br />
+		<br />
+		So if you have interest in helping to design a consistent keymap or maybe you use different applications and want to
+		contribute configuratons, or maybe something else, contact me.
+
+		<div style="position: fixed; bottom: 20px; z-index: 100">
+			<img src="../logo_new.png" style="float: left; padding-right: 100px" />
+			<table>
+				<tr>
+					<th>Version:</th>
+					<td>v0.0.2-alpha2</td>
+				</tr>
+				<tr>
+					<th>Linux:</th>
+					<td>Ubuntu 19.10</td>
+				</tr>
+				<tr>
+					<th>Date:</th>
+					<td>2019-11-10</td>
+				</tr>
+				<tr>
+					<th>URL:</th>
+					<td>https://github.com/DerBunman/DieBenutzerumgebung/</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

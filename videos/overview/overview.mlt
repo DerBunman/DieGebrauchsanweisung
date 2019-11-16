@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.17.0" title="Shotcut version 19.10.20" producer="main_bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:04:05.560">
+    <property name="length">00:04:05.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:04:05.560"/>
+  </playlist>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter0" out="00:00:14.920">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:intro.html</property>
+      <property name="factory">loader</property>
+      <property name="duration">19.96</property>
+    </filter>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter1" out="00:00:30.000">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:intro2.html</property>
+      <property name="duration">40.16</property>
+    </filter>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter2" out="00:00:29.080">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:desktop.html</property>
+      <property name="duration">41.08</property>
+    </filter>
+    <filter id="filter3" out="00:00:29.080">
+      <property name="start">1</property>
+      <property name="level">00:00:28.120=1;00:00:29.080=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:21:14.760">
+    <property name="length">00:21:14.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.2:ubuntu19.10_4.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">0.2</property>
+    <property name="warp_resource">ubuntu19.10_4.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4 (0.2x)</property>
+    <filter id="filter4" in="00:00:05.800" out="00:00:11.040">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_notifications.html</property>
+      <property name="factory">loader</property>
+      <property name="duration">5.28</property>
+    </filter>
+  </producer>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:08:29.880">
+    <property name="length">00:08:29.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.5:ubuntu19.10_4.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">0.5</property>
+    <property name="warp_resource">ubuntu19.10_4.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4 (0.5x)</property>
+    <filter id="filter5" in="00:00:04.080" out="00:00:05.120">
+      <property name="argument">This is what your desktop will look like when you login.</property>
+      <property name="geometry">10 -2 1676 143 1</property>
+      <property name="family">Roboto Medium</property>
+      <property name="size">71</property>
+      <property name="weight">570</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">48</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter6" in="00:00:04.080" out="00:00:05.120">
+      <property name="argument">In the upper right are the dunst notifications informing you right now,
+what has been autostarted. However, these notifications will be used
+by almost all other desktop applications.</property>
+      <property name="geometry">12 224 1661 173 1</property>
+      <property name="family">Roboto Medium</property>
+      <property name="size">71</property>
+      <property name="weight">570</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">48</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter7" in="00:00:04.080" out="00:00:05.120">
+      <property name="argument">Down at the bottom resides the polybar which displays some information about the
+ system, provides the systray, lets you control the volume and lets you interact with i3.
+</property>
+      <property name="geometry">6 781 1902 260 1</property>
+      <property name="family">Roboto Medium</property>
+      <property name="size">71</property>
+      <property name="weight">570</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">48</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter8" in="00:00:04.080" out="00:00:05.120">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_notifications.html</property>
+      <property name="factory">loader</property>
+    </filter>
+  </producer>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter9" in="00:00:04.000" out="00:00:04.880">
+      <property name="argument">This is what your desktop will look like when you login.</property>
+      <property name="geometry">10 -2 1676 143 1</property>
+      <property name="family">Roboto Medium</property>
+      <property name="size">71</property>
+      <property name="weight">570</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">48</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter10" in="00:00:04.000" out="00:00:04.880">
+      <property name="argument">In the upper right are the dunst notifications informing you right now,
+what has been autostarted. However, these notifications will be used
+by almost all other desktop applications.</property>
+      <property name="geometry">12 224 1661 173 1</property>
+      <property name="family">Roboto Medium</property>
+      <property name="size">71</property>
+      <property name="weight">570</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">48</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter11" in="00:00:04.000" out="00:00:04.880">
+      <property name="argument">Down at the bottom resides the polybar which displays some information about the
+ system, provides the systray, lets you control the volume and lets you interact with i3.
+</property>
+      <property name="geometry">6 781 1902 260 1</property>
+      <property name="family">Roboto Medium</property>
+      <property name="size">71</property>
+      <property name="weight">570</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:pointSize">48</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter12" in="00:00:04.000" out="00:00:04.880">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_notifications.html</property>
+      <property name="factory">loader</property>
+      <property name="duration">4.6</property>
+    </filter>
+  </producer>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:42:29.560">
+    <property name="length">00:42:29.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.1:ubuntu19.10_4.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">0.1</property>
+    <property name="warp_resource">ubuntu19.10_4.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4 (0.1x)</property>
+    <filter id="filter13" in="00:01:12.000" out="00:01:14.080">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_polybar.html</property>
+    </filter>
+    <filter id="filter14" in="00:01:12.000" out="00:01:14.080">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_polybar_bubble1.html</property>
+    </filter>
+  </producer>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:42:29.560">
+    <property name="length">00:42:29.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.1:ubuntu19.10_4.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">0.1</property>
+    <property name="warp_resource">ubuntu19.10_4.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4 (0.1x)</property>
+    <filter id="filter15" in="00:01:14.120" out="00:01:17.720">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_polybar.html</property>
+    </filter>
+    <filter id="filter16" in="00:01:14.120" out="00:01:17.720">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_polybar_bubble2.html</property>
+      <property name="factory">loader</property>
+    </filter>
+  </producer>
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="00:42:29.560">
+    <property name="length">00:42:29.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.1:ubuntu19.10_4.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">0.1</property>
+    <property name="warp_resource">ubuntu19.10_4.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4 (0.1x)</property>
+    <filter id="filter17" in="00:01:17.760" out="00:01:21.320">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_polybar.html</property>
+    </filter>
+    <filter id="filter18" in="00:01:17.760" out="00:01:21.320">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_polybar_bubble3.html</property>
+      <property name="factory">loader</property>
+    </filter>
+  </producer>
+  <producer id="producer9" title="Anonymous Submission" in="00:00:00.000" out="00:42:29.560">
+    <property name="length">00:42:29.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.1:ubuntu19.10_4.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">0.1</property>
+    <property name="warp_resource">ubuntu19.10_4.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4 (0.1x)</property>
+    <filter id="filter19" in="00:01:21.360" out="00:01:24.600">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_polybar.html</property>
+    </filter>
+    <filter id="filter20" in="00:01:21.360" out="00:01:24.600">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_polybar_bubble4.html</property>
+    </filter>
+  </producer>
+  <producer id="producer10" title="Anonymous Submission" in="00:00:00.000" out="00:42:29.560">
+    <property name="length">00:42:29.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.1:ubuntu19.10_4.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">0.1</property>
+    <property name="warp_resource">ubuntu19.10_4.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4 (0.1x)</property>
+    <filter id="filter21" in="00:01:34.320" out="00:01:43.160">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_rofi1.html</property>
+    </filter>
+  </producer>
+  <producer id="producer11" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter22" in="00:00:34.840" out="00:00:42.520">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_rofi2.html</property>
+      <property name="factory">loader</property>
+    </filter>
+    <filter id="filter23" in="00:00:34.840" out="00:00:42.520">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_rofi_tabs_run.html</property>
+    </filter>
+  </producer>
+  <producer id="producer12" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter24" in="00:00:42.560" out="00:00:47.280">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_rofi2.html</property>
+      <property name="factory">loader</property>
+    </filter>
+    <filter id="filter25" in="00:00:42.560" out="00:00:47.280">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_rofi_tabs_media.html</property>
+    </filter>
+  </producer>
+  <producer id="producer13" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter26" in="00:00:47.320" out="00:00:51.160">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_rofi2.html</property>
+      <property name="factory">loader</property>
+    </filter>
+    <filter id="filter27" in="00:00:47.320" out="00:00:51.160">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_rofi_tabs_window.html</property>
+    </filter>
+  </producer>
+  <producer id="producer14" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter28" in="00:01:00.520" out="00:00:54.000">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_rofi2.html</property>
+      <property name="factory">loader</property>
+      <property name="duration">200.16</property>
+    </filter>
+    <filter id="filter29" in="00:01:00.520" out="00:00:54.000">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_rofi_tabs_media.html</property>
+      <property name="duration">203.76</property>
+    </filter>
+  </producer>
+  <producer id="producer15" title="Anonymous Submission" in="00:00:00.000" out="00:42:29.560">
+    <property name="length">00:42:29.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.1:ubuntu19.10_4.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">0.1</property>
+    <property name="warp_resource">ubuntu19.10_4.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4 (0.1x)</property>
+    <filter id="filter30" in="00:09:00.400" out="00:09:07.600">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_rofi3_run.html</property>
+    </filter>
+  </producer>
+  <producer id="producer16" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter31" in="00:00:54.800" out="00:01:00.640">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">1</property>
+      <property name="resource">plain:infobox_rofi2.html</property>
+      <property name="factory">loader</property>
+      <property name="duration">200.16</property>
+    </filter>
+    <filter id="filter32" in="00:00:54.800" out="00:01:00.640">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_rofi_tabs_media.html</property>
+      <property name="duration">203.76</property>
+    </filter>
+  </producer>
+  <producer id="producer17" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter33" in="00:01:00.680" out="00:01:05.840">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_rofi3_run2.html</property>
+    </filter>
+  </producer>
+  <producer id="producer18" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter34" in="00:01:11.040" out="00:01:16.560">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_rofi3_run2.html</property>
+    </filter>
+  </producer>
+  <producer id="producer19" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter35" in="00:01:16.600" out="00:01:28.280">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_split.html</property>
+      <property name="factory">loader</property>
+    </filter>
+  </producer>
+  <producer id="producer20" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter36" in="00:01:28.320" out="00:01:53.320">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_filemanager_ranger.html</property>
+    </filter>
+  </producer>
+  <producer id="producer21" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter37" in="00:01:53.360" out="00:01:54.480">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_filemanager_nautilus.html</property>
+    </filter>
+  </producer>
+  <producer id="producer22" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter38" in="00:01:55.800" out="00:02:07.400">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_filemanager_nautilus.html</property>
+      <property name="duration">139.16</property>
+    </filter>
+  </producer>
+  <producer id="producer23" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer24" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter39" in="00:02:20.240" out="00:02:28.800">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_windows.html</property>
+      <property name="factory">loader</property>
+    </filter>
+  </producer>
+  <producer id="producer25" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter40" in="00:02:28.840" out="00:02:46.640">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="factory">loader</property>
+      <property name="resource">plain:infobox_desktops.html</property>
+    </filter>
+  </producer>
+  <producer id="producer26" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter41" in="00:02:46.680" out="00:02:54.560">
+      <property name="lift_r">0.52401</property>
+      <property name="lift_g">0.52401</property>
+      <property name="lift_b">0.52401</property>
+      <property name="gamma_r">1.75</property>
+      <property name="gamma_g">1.75</property>
+      <property name="gamma_b">1.75</property>
+      <property name="gain_r">1</property>
+      <property name="gain_g">1</property>
+      <property name="gain_b">1</property>
+      <property name="mlt_service">lift_gamma_gain</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter42" in="00:02:46.680" out="00:02:54.560">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_resize.html</property>
+      <property name="factory">loader</property>
+    </filter>
+  </producer>
+  <producer id="producer27" title="Anonymous Submission" in="00:00:00.000" out="00:04:14.920">
+    <property name="length">00:04:14.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">ubuntu19.10_4.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-11T20:37:05</property>
+    <property name="shotcut:hash">72232e23c6579687e21bd814bb48de9e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ubuntu19.10_4.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter43" in="00:02:54.600" out="00:02:57.560">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:infobox_resize.html</property>
+      <property name="factory">loader</property>
+      <property name="duration">80.36</property>
+    </filter>
+  </producer>
+  <producer id="producer28" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">arrow.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2019-11-11T22:02:10</property>
+    <property name="shotcut:hash">ff94d1d08151af3538637a9753898e86</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter44" out="00:00:03.960">
+      <property name="mlt_service">webvfx</property>
+      <property name="disable">0</property>
+      <property name="resource">plain:end.html</property>
+      <property name="factory">loader</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:14.920"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:30.000"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:24.960"/>
+    <entry producer="producer3" in="00:00:05.800" out="00:00:11.040"/>
+    <entry producer="producer4" in="00:00:04.080" out="00:00:05.120"/>
+    <entry producer="producer5" in="00:00:04.000" out="00:00:04.880"/>
+    <entry producer="producer6" in="00:01:12.000" out="00:01:14.080"/>
+    <entry producer="producer7" in="00:01:14.120" out="00:01:17.720"/>
+    <entry producer="producer8" in="00:01:17.760" out="00:01:21.320"/>
+    <entry producer="producer9" in="00:01:21.360" out="00:01:24.600"/>
+    <entry producer="producer10" in="00:01:34.320" out="00:01:43.160"/>
+    <entry producer="producer11" in="00:00:34.840" out="00:00:42.520"/>
+    <entry producer="producer12" in="00:00:42.560" out="00:00:47.280"/>
+    <entry producer="producer13" in="00:00:47.320" out="00:00:51.160"/>
+    <entry producer="producer14" in="00:00:51.200" out="00:00:54.000"/>
+    <entry producer="producer15" in="00:09:00.400" out="00:09:07.600"/>
+    <entry producer="producer16" in="00:00:54.800" out="00:01:00.640"/>
+    <entry producer="producer17" in="00:01:00.680" out="00:01:05.840"/>
+    <entry producer="producer18" in="00:01:11.040" out="00:01:16.560"/>
+    <entry producer="producer19" in="00:01:16.600" out="00:01:28.280"/>
+    <entry producer="producer20" in="00:01:28.320" out="00:01:53.320"/>
+    <entry producer="producer21" in="00:01:53.360" out="00:01:54.480"/>
+    <entry producer="producer22" in="00:01:55.800" out="00:02:07.400"/>
+    <entry producer="producer23" in="00:02:07.440" out="00:02:20.200"/>
+    <entry producer="producer24" in="00:02:20.240" out="00:02:28.800"/>
+    <entry producer="producer25" in="00:02:28.840" out="00:02:46.640"/>
+    <entry producer="producer26" in="00:02:46.680" out="00:02:54.560"/>
+    <entry producer="producer27" in="00:02:54.600" out="00:02:57.560"/>
+    <entry producer="producer28" in="00:00:00.000" out="00:00:03.960"/>
+  </playlist>
+  <producer id="producer29" title="Anonymous Submission" in="00:00:00.000" out="00:00:01.000">
+    <property name="length">00:00:01.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">ding.wav</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2019-11-16T08:18:17</property>
+    <property name="shotcut:hash">ff189adb8bd44a2eeaedc7b83e09d6ae</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ding.wav</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer30" title="Anonymous Submission" in="00:00:00.000" out="00:00:01.000">
+    <property name="length">00:00:01.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">ding.wav</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2019-11-16T08:18:17</property>
+    <property name="shotcut:hash">ff189adb8bd44a2eeaedc7b83e09d6ae</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ding.wav</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer31" title="Anonymous Submission" in="00:00:00.000" out="00:00:01.000">
+    <property name="length">00:00:01.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">ding.wav</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2019-11-16T08:18:17</property>
+    <property name="shotcut:hash">ff189adb8bd44a2eeaedc7b83e09d6ae</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ding.wav</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer32" title="Anonymous Submission" in="00:00:00.000" out="00:00:01.000">
+    <property name="length">00:00:01.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">ding.wav</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2019-11-16T08:18:17</property>
+    <property name="shotcut:hash">ff189adb8bd44a2eeaedc7b83e09d6ae</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ding.wav</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer33" title="Anonymous Submission" in="00:00:00.000" out="00:00:00.960">
+    <property name="length">00:00:01.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">click.wav</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2019-11-16T08:18:58</property>
+    <property name="shotcut:hash">f5a65e9e3a900a52ca7ee32fbf89a53f</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">click.wav</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer34" title="Anonymous Submission" in="00:00:00.000" out="00:00:00.960">
+    <property name="length">00:00:01.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">click.wav</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2019-11-16T08:18:58</property>
+    <property name="shotcut:hash">f5a65e9e3a900a52ca7ee32fbf89a53f</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">click.wav</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer35" title="Anonymous Submission" in="00:00:00.000" out="00:00:00.960">
+    <property name="length">00:00:01.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">click.wav</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2019-11-16T08:18:58</property>
+    <property name="shotcut:hash">f5a65e9e3a900a52ca7ee32fbf89a53f</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">click.wav</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:01:17.280"/>
+    <entry producer="producer29" in="00:00:00.000" out="00:00:01.000"/>
+    <blank length="00:00:01.080"/>
+    <entry producer="producer30" in="00:00:00.000" out="00:00:01.000"/>
+    <blank length="00:00:02.600"/>
+    <entry producer="producer31" in="00:00:00.000" out="00:00:01.000"/>
+    <blank length="00:00:02.560"/>
+    <entry producer="producer32" in="00:00:00.000" out="00:00:01.000"/>
+    <blank length="00:00:18.560"/>
+    <entry producer="producer33" in="00:00:00.000" out="00:00:00.960"/>
+    <blank length="00:00:03.920"/>
+    <entry producer="producer34" in="00:00:00.000" out="00:00:00.960"/>
+    <blank length="00:00:02.720"/>
+    <entry producer="producer35" in="00:00:00.000" out="00:00:00.960"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 19.10.20" global_feed="1" in="00:00:00.000" out="00:04:05.560">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:scaleFactor">1.19873</property>
+    <property name="shotcut:trackHeight">70</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
