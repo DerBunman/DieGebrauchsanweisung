@@ -1125,6 +1125,12 @@ by almost all other desktop applications.</property>
     <entry producer="producer35" in="00:00:00.000" out="00:00:00.960"/>
     <blank length="00:00:02.720"/>
     <entry producer="producer36" in="00:00:00.000" out="00:00:00.960"/>
+    <filter id="filter46" out="00:01:55.840">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">8.8</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </playlist>
   <producer id="producer37" title="Anonymous Submission" in="00:00:00.000" out="00:04:09.640">
     <property name="length">00:04:09.680</property>
@@ -1142,7 +1148,7 @@ by almost all other desktop applications.</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter46" out="00:04:09.640">
+    <filter id="filter47" out="00:04:09.640">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:04:04.680=0;00:04:09.640=-60</property>
