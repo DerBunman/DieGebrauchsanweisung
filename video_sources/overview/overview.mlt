@@ -4,8 +4,8 @@
   <playlist id="main_bin">
     <property name="xml_retain">1</property>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:04:09.640">
-    <property name="length">00:04:09.680</property>
+  <producer id="black" in="00:00:00.000" out="00:04:30.000">
+    <property name="length">00:04:30.040</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -14,7 +14,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:04:09.640"/>
+    <entry producer="black" in="00:00:00.000" out="00:04:30.000"/>
   </playlist>
   <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -916,39 +916,38 @@ by almost all other desktop applications.</property>
   <producer id="producer28" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">arrow.png</property>
-    <property name="ttl">1</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
-    <property name="progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="mlt_service">qimage</property>
-    <property name="creation_time">2019-11-11T22:02:10</property>
-    <property name="shotcut:hash">ff94d1d08151af3538637a9753898e86</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter44" out="00:00:03.960">
+    <property name="seekable">1</property>
+    <filter id="filter44" out="00:00:08.360">
       <property name="mlt_service">webvfx</property>
       <property name="disable">0</property>
       <property name="resource">plain:end.html</property>
       <property name="factory">loader</property>
+      <property name="duration">8.4</property>
     </filter>
   </producer>
   <producer id="producer29" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">arrow.png</property>
-    <property name="ttl">1</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
-    <property name="progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="mlt_service">qimage</property>
-    <property name="creation_time">2019-11-11T22:02:10</property>
-    <property name="shotcut:hash">ff94d1d08151af3538637a9753898e86</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter45" out="00:00:03.960">
+    <property name="seekable">1</property>
+    <filter id="filter45" out="00:00:20.000">
       <property name="mlt_service">webvfx</property>
       <property name="disable">0</property>
       <property name="resource">plain:end2.html</property>
@@ -986,8 +985,8 @@ by almost all other desktop applications.</property>
     <entry producer="producer25" in="00:02:28.840" out="00:02:46.640"/>
     <entry producer="producer26" in="00:02:46.680" out="00:02:54.560"/>
     <entry producer="producer27" in="00:02:54.600" out="00:02:57.560"/>
-    <entry producer="producer28" in="00:00:00.000" out="00:00:03.960"/>
-    <entry producer="producer29" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer28" in="00:00:00.000" out="00:00:08.360"/>
+    <entry producer="producer29" in="00:00:00.000" out="00:00:20.000"/>
   </playlist>
   <producer id="producer30" title="Anonymous Submission" in="00:00:00.000" out="00:00:01.000">
     <property name="length">00:00:01.040</property>
@@ -1148,16 +1147,22 @@ by almost all other desktop applications.</property>
     <property name="shotcut:name">A2</property>
     <entry producer="producer37" in="00:00:00.000" out="00:04:09.640"/>
   </playlist>
-  <tractor id="tractor0" title="Shotcut version 19.10.20" global_feed="1" in="00:00:00.000" out="00:04:09.640">
+  <playlist id="playlist3">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A3</property>
+    <blank length="00:00:00.040"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 19.10.20" global_feed="1" in="00:00:00.000" out="00:04:30.000">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
-    <property name="shotcut:scaleFactor">1.19873</property>
+    <property name="shotcut:scaleFactor">2.42204</property>
     <property name="shotcut:trackHeight">70</property>
     <track producer="background"/>
     <track producer="playlist0"/>
     <track producer="playlist1" hide="video"/>
     <track producer="playlist2" hide="video"/>
+    <track producer="playlist3" hide="video"/>
     <transition id="transition0">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1180,6 +1185,13 @@ by almost all other desktop applications.</property>
       <property name="sum">1</property>
     </transition>
     <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition4">
       <property name="a_track">0</property>
       <property name="b_track">3</property>
       <property name="mlt_service">mix</property>
